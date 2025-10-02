@@ -1,0 +1,119 @@
+/* Reseteo básico de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo del encabezado principal */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los títulos dentro del header */
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos dentro del header */
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilo para las secciones */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los encabezados de las secciones */
+section h2 {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los subtítulos de las secciones */
+section h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Estilo de las listas dentro de las secciones */
+section ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las fechas en las secciones de experiencia */
+section p em {
+    color: #777;
+    font-style: normal;
+}
+
+/* Resaltar las listas de habilidades */
+section ul li {
+    font-size: 1.1em;
+}
+
+/* Agregar un borde al final de las secciones */
+section {
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* Responsividad: Asegurar que el contenido se adapte en dispositivos pequeños */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.6em;
+    }
+
+    section h3 {
+        font-size: 1.3em;
+    }
+
+    section ul li {
+        font-size: 1em;
+    }
+}
